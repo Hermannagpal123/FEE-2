@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <center>
+    <form action="post">
+        <div>
+            <label for="Username">Enter your Username</label>
+            <input type="text" name="Username" id="Username" placeholder="Enter your Username" required autofocus>
+        </div><br>
+        <div>
+            <label for="Password">Enter your Password</label>
+            <input type="password" name="Password" id="Password" placeholder="Enter your Password" required>
+        </div><br>
+        <div>
+            <input type="radio" name="Gender" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Female">
+            <label for="Female">Female</label>
+        </div><br>
+        <div>
+            <label for="Fruits">Select your favourite Fruit</label>
+            <select name="Fruits" id="Fruits">
+                <option value="Apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="Kiwi">Kiwi</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="tick">Are you Gay?</label>
+            <input type="checkbox" name="Gay" id="tick">
+        </div><br>
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            <input type="button" value="click me">
+        </div><br>
+        <div>
+            <input type="color" name="color" id="color">
+        </div><br>
+        <div>
+            <input type="date" name="date" id="date">
+            <input type="datetime-local" name="dl" id="dl">
+        </div><br>
+        <div>
+            <input type="email" name="email" id="email">
+        </div><br>
+        <div>
+            <input type="file" name="file" id="file">
+        </div><br>
+        <div>
+            <input type="image" src="Ram mandir image.png" width="200" alt="">
+        </div><br>
+        <div>
+            <input type="search" name="search" id="search">
+        </div><br>
+        <div>
+            <textarea name="txt" id="area" cols="30" rows="10" placeholder="Enter your text here..."></textarea>
+        </div><br>
+        <div>
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+              <option value="Edge">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist>
+            <input type="submit">
+        </div>
+    </form>
+    </center>
+</body>
+</html>

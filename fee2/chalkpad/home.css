@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: brightness(60%);
+    overflow: hidden;
+}
+
+.red{
+    padding-top: 1px;   
+    background-color: red;
+}
+
+.cicon{
+    display: flex;
+    justify-content: end;
+}
+
+main{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 18rem;
+}
+
+.outer{
+    margin-top: 2.8rem;
+    width: 240px;
+    height: 520px;
+    background-color: white;
+    padding: 20px 15px;
+    /* border: 1px solid; */
+    box-shadow: 1px 1px solid darkblue;
+}
+
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forms div{
+    padding-top: 12px;
+}
+
+.forms div input{
+    width: 220px;
+    height: 25px;
+}
+.forms div select{
+    width: 220px;
+    height: 22px;
+}
+
+.Sign_in{
+    padding: 10px 5px;
+}
+.Sign_in{
+    font-size: 14px;
+    color: rgb(211, 215, 221);
+}
+.Sign_in .f{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.fl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+
+.fle{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0.6rem;
+}
